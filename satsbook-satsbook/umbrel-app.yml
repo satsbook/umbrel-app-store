@@ -9,6 +9,7 @@ description: >-
   profit & loss — all on your own hardware. Satsbook connects to your
   LND node and provides a privacy-first dashboard with fee analytics,
   Strike CSV import, and a basic P&L view. No cloud services required.
+icon: https://raw.githubusercontent.com/satsbook/umbrel-app-store/main/satsbook-satsbook/icon.svg
 developer: satsbook
 website: https://github.com/satsbook/satsbook
 repo: https://github.com/satsbook/satsbook
@@ -18,10 +19,7 @@ dependencies:
 port: 3000
 gallery: []
 path: ""
-defaultUsername: ""
-defaultPassword: ""
 releaseNotes: >-
   Initial release. Fee analytics dashboard, Strike CSV import,
   basic P&L view with period selectors.
 submitter: brewgator
-submission: ""
