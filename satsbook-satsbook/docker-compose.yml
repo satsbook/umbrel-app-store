@@ -3,12 +3,12 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: satsbook_server_1
+      APP_HOST: satsbook-satsbook_server_1
       APP_PORT: 3000
 
   server:
     image: ghcr.io/satsbook/satsbook:0.1.0
-    container_name: satsbook_server_1
+    container_name: satsbook-satsbook_server_1
     restart: on-failure
     stop_grace_period: 1m
     init: true
@@ -25,4 +25,4 @@ services:
       SATSBOOK_LOG_LEVEL: info
     networks:
       default:
-        ipv4_address: ${APP_SATSBOOK_IP}
+        ipv4_address: ${APP_SATSBOOK_SATSBOOK_IP}
