@@ -9,11 +9,12 @@ services:
   server:
     image: ghcr.io/satsbook/satsbook:1.1.0
     container_name: satsbook-satsbook_server_1
+    user: "1000:1000"
     restart: on-failure
     stop_grace_period: 1m
     init: true
     volumes:
-      - ${APP_DATA_DIR}/data:/data
+      - ${APP_DATA_DIR}:/data
       - ${APP_LIGHTNING_NODE_DATA_DIR}:/lnd:ro
     environment:
       SATSBOOK_LND_HOST: ${APP_LIGHTNING_NODE_IP}
