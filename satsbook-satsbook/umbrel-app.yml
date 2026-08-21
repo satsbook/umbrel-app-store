@@ -2,7 +2,7 @@ manifestVersion: 1
 id: satsbook-satsbook
 category: bitcoin
 name: Satsbook
-version: "2.0.0"
+version: "2.1.0"
 tagline: Bitcoin accounting and tax export for Lightning node operators
 description: >-
   Track routing fees, import exchange transactions (Strike, River, Coinbase, Swan),
@@ -19,13 +19,20 @@ support: https://github.com/satsbook/satsbook/issues
 dependencies:
   - lightning
 port: 3017
-gallery: []
+gallery:
+  - 1.webp
+  - 2.webp
+  - 3.webp
+  - 4.webp
+  - 5.webp
 path: ""
 releaseNotes: >-
-  v2.0.0 — Major release with paid tiers and full accounting.
-  Free: interactive portfolio donut chart, unified transaction ledger,
-  transfer tagging (auto-detects channel opens/closes), 4 exchange
-  CSV imports (Strike, River, Coinbase, Swan), watched wallet tracking.
-  Pro: FIFO/LIFO cost basis engine, Form 8949 tax export.
-  Power: Monarch Money BTC holdings and transaction sync.
+  v2.1.0 — Annual report, nav overhaul, and stability fixes.
+  New: year-in-review page with monthly routing fee chart, BTC purchase
+  totals, and disposal count. Nav reorganized into grouped dropdowns
+  (Node, Portfolio, Activity, Tax). Bug fixes: footer consistency,
+  tax guide navigation, settings node indicator.
+  v2.0.0: paid tiers, portfolio donut chart, unified transaction ledger,
+  transfer tagging, 4 exchange imports, watched wallets, Form 8949 export,
+  Monarch Money sync.
 submitter: brewgator
