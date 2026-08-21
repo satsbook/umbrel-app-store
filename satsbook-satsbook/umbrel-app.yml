@@ -27,12 +27,6 @@ gallery:
   - 5.webp
 path: ""
 releaseNotes: >-
-  v2.1.0 — Annual report, nav overhaul, and stability fixes.
-  New: year-in-review page with monthly routing fee chart, BTC purchase
-  totals, and disposal count. Nav reorganized into grouped dropdowns
-  (Node, Portfolio, Activity, Tax). Bug fixes: footer consistency,
-  tax guide navigation, settings node indicator.
-  v2.0.0: paid tiers, portfolio donut chart, unified transaction ledger,
-  transfer tagging, 4 exchange imports, watched wallets, Form 8949 export,
-  Monarch Money sync.
+  node alias, tier badge, and footer data on all pages (#144), add full nav and footer to tax guide page (#138) (#142), add node alias and sync indicator to settings page header (#139) (#143), standardize footer across all layout templates (#137) (#141), annual node report page (#132), add tax guide landing page (#119), Coinbase CDP API auto-sync (#118), add database backup and restore mechanism (#117), auto-detect channel opens/closes and tag as transfers (#116), Strike API auto-sync (#115), t...
+
 submitter: brewgator
