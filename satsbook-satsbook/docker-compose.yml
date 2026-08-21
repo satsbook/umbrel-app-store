@@ -7,7 +7,7 @@ services:
       APP_PORT: 3017
 
   server:
-    image: ghcr.io/satsbook/satsbook:2.0.0
+    image: ghcr.io/satsbook/satsbook:2.1.0@sha256:073795941f3b9db24f63b4b2d2f3b45379d41e4ea616ad721efb51b21f1f1e3e
     container_name: satsbook-satsbook_server_1
     restart: on-failure
     stop_grace_period: 1m
